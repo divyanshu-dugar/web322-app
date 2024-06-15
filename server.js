@@ -48,3 +48,5 @@ storeService.initialize()
   .catch(err => {
     console.error(`Failed to initialize store service: ${err}`);
 });
+
+module.exports = app;
